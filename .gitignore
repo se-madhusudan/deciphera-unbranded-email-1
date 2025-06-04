@@ -45,5 +45,3 @@ yarn-error.log*
 /emails/yarn.lock
 /emails/dist
 
-# screenshots
-/tools/screenshots/output
