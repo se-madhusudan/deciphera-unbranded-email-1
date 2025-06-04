@@ -1,0 +1,37 @@
+{
+    "name": "emails",
+    "version": "1.0.0",
+    "emailType": "AIG",
+    "scripts": {
+        "start": "gulp watch",
+        "screen:desktop": "node tools/screenshots/screen.js",
+        "screen:pdf": "node tools/screenshots/pdf.js"
+    },
+    "description": "",
+    "keywords": [],
+    "author": "Haymarket Media",
+    "devDependencies": {
+        "browser-sync": "^2.26.14",
+        "fs": "^0.0.1-security",
+        "glob": "^8.0.3",
+        "gulp": "^4.0.2",
+        "gulp-autoprefixer": "^8.0.0",
+        "gulp-clean": "^0.4.0",
+        "gulp-clean-css": "4.3.0",
+        "gulp-file-include": "^2.3.0",
+        "gulp-htmlmin": "^5.0.1",
+        "gulp-rename": "2.0.0",
+        "gulp-replace": "^1.1.4",
+        "gulp-sass": "^5.1.0",
+        "gulp-uglify": "3.0.2",
+        "gulp-zip": "^5.1.0",
+        "image-size": "^0.7.1",
+        "ora": "^3.0.0",
+        "pdfkit": "^0.9.1",
+        "puppeteer": "^1.11.0",
+        "sass": "^1.69.3"
+    },
+    "dependencies": {
+        "gulp-cli": "^2.3.0"
+    }
+}

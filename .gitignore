@@ -1,0 +1,49 @@
+.DS_Store
+node_modules
+dist
+uat
+/dist
+yarn.lock
+package-lock.json
+bu-*
+
+# local env files
+.env
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
+
+# banners
+/banners/node_modules
+/banners/package-lock.json
+/banners/.vs
+/banners/zipped  
+/banners/tools/screenshots/output/banner/**/*.png
+/banners/yarn.lock
+/banners/dist
+
+# emails  
+/emails/node_modules
+/emails/package-lock.json
+/emails/.vs
+/emails/zipped
+.zip
+/emails/tools/screenshots/output/**/*.png
+/emails/yarn.lock
+/emails/dist
+
+# screenshots
+/tools/screenshots/output

@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="x-apple-disable-message-reformatting">
+	<meta name="format-detection" content="telephone=no,address=no,email=no,date=no,url=no">
+	<meta name="color-scheme" content="light">
+	<meta name="supported-color-schemes" content="light">
+	<title></title>
+	<!--[if gte mso 9]>
+	<xml>
+			<o:OfficeDocumentSettings>
+					<o:AllowPNG/>
+					<o:PixelsPerInch>96</o:PixelsPerInch>
+			</o:OfficeDocumentSettings>
+	</xml>
+	<![endif]-->
+	
+	<style type="text/css">
+		:root {
+			color-scheme: light;
+			supported-color-schemes: light;
+		}
+		* {
+			-ms-text-size-adjust: 100%;
+			-webkit-text-size-adjust: 100%;
+		}
+		div[style*="margin: 16px 0"] {
+			margin: 0 !important;
+		}
+		#MessageViewBody, #MessageWebViewDiv {
+			width: 100% !important;
+		}
+		table, td {
+			mso-table-lspace: 0pt !important;
+			mso-table-rspace: 0pt !important;
+		}
+    tbody {
+      padding: 0;
+      margin: 0;
+      border: 0;
+    }
+		th {
+			font-size: inherit;
+			line-height: inherit;
+			font-weight: inherit;
+			text-align: left;
+		}
+    img {
+      -ms-interpolation-mode: bicubic;
+      border: 0;
+    }
+
+    /* disable gmail autolinks */
+    u + #body a {
+      color: inherit !important;
+      font-size: inherit !important;
+      font-family: inherit !important;
+      font-weight: inherit !important;
+      line-height: inherit !important;
+    }
+
+    /* disable samsung autolinks */
+    #MessageViewBody a {
+      color: inherit !important;
+      font-size: inherit !important;
+      font-family: inherit !important;
+      font-weight: inherit !important;
+      line-height: inherit !important;
+    }
+
+    /* reset list margin in gmail webmail only */
+    u + .body .glist { margin-left: 0 !important; }
+    @media only screen and (max-width: 640px) {
+      u + .body .glist { margin-left: 25px !important; }
+    }
+
+    /* force gmail app full width */
+    @media only screen and (max-width: 480px) {
+      u ~ div .email-wrapper {
+        min-width: 100vw;
+      }
+      div > u ~ div .email-wrapper {
+        min-width: 100%;
+      }
+    }
+
+    
+	</style>
+
+  <style>
+    @media only screen and (max-width: 599px) {
+      .m-show {
+        display: block !important;
+      }
+      .m-hide {
+        display: none !important;
+      }
+      .m-block {
+        display: block !important;
+        width: 100% !important;
+      }
+      .m-height-auto {
+        height: auto !important;
+      }
+      .m-full {
+        width: 100% !important;
+      }
+      .m-px-0 {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+      }
+      .m-py-0 {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+      }
+      .m-px-10 {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+      }
+      .m-px-16 {
+        padding-left: 16px !important;
+        padding-right: 16px !important;
+      }
+      .m-px-20 {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+      }
+      .m-px-30 {
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+      }
+      .m-text-center {
+        text-align: center !important;
+      }
+      .m-text-right {
+        text-align: right !important;
+      }
+      .m-headline {
+        font-size: 22px !important;
+        line-height: 31px !important;
+      }
+      .m-header-logo {
+        width: 268px !important;
+      }
+      .m-td-width {
+        width: 30px !important;
+      }
+    }
+  </style>
+</head>
+<body width="100%" style="margin: 0; padding: 0 !important; mso-line-height-rule: exactly; background-color: #f5f5f5;">
+
+  <center role="article" aria-roledescription="email" lang="en" style="width: 100%; background-color: #f5f5f5;">
+    <!--[if mso | IE]>
+    <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color: #f5f5f5;">
+    <tr>
+    <td>
+    <![endif]-->
+
+
+			<div style="max-width: 600px; margin: 0 auto;" class="email-wrapper">
+				<!--[if mso]>
+				<table align="center" role="presentation" cellspacing="0" cellpadding="0" border="0" width="600" style="width:600px;">
+				<tr>
+				<td>
+				<![endif]-->
+				<table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="margin: auto;">
+					<tr>
+						<td>
+							<!-- Build Components Start -->
+
+
+							<table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="margin: auto;">
+
+                <!-- email info component -->
+                <tr>
+                  <td style="padding: 20px;">
+                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                      <tr>
+                        <td style="font-family: Arial, sans-serif; font-size: 16px; line-height: 22px;">
+                          <span style="color: #000000;"><strong>To:</strong></span>
+                          <span style="color: #FA00E1;">[Recipient’s email]</span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td style="padding-top: 4px; font-family: Arial, sans-serif; font-size: 16px; line-height: 22px; color: #000000;">
+                          <strong>From:</strong> Cancer Therapy Advisor on behalf of Eric Sullivan, PharmD
+                        </td>
+                      </tr>
+                      <tr>
+                        <td style="padding-top: 10px; font-family: Arial, sans-serif; font-size: 16px; line-height: 22px;">
+                          <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                            <tr>
+                              <td style="color: #000000; font-family: Arial, sans-serif; font-size: 16px; line-height: 22px;"><strong>Subject Lines:</strong></td>
+                            </tr>
+                            <tr>
+                              <td style="padding-top: 4px; color: #FA00E1; font-family: Arial, sans-serif; font-size: 16px; line-height: 22px;">[Gain expert insights on GIST management]
+                              </td>
+                            </tr>
+                            <tr>
+                              <td style="padding-top: 4px; color: #FA00E1; font-family: Arial, sans-serif; font-size: 16px; line-height: 22px;">[Don’t miss out: Watch three renowned experts discuss the latest in GIST management]
+                              </td>
+                            </tr>
+                            <tr>
+                              <td style="padding-top: 4px; color: #FA00E1; font-family: Arial, sans-serif; font-size: 16px; line-height: 22px;">[Explore videos on key considerations in advanced GIST management]
+                              </td>
+                            </tr>
+                            <tr>
+                              <td style="padding-top: 4px; color: #FA00E1; font-family: Arial, sans-serif; font-size: 16px; line-height: 22px;">[Uncover new ways to approach the management of advanced GIST]
+                              </td>
+                            </tr>
+                            <tr>
+                              <td style="padding-top: 4px; color: #FA00E1; font-family: Arial, sans-serif; font-size: 16px; line-height: 22px;">[Leading sarcoma experts weigh in on drivers of GIST progression]
+                              </td>
+                            </tr>
+                            <tr>
+                              <td style="padding-top: 4px; color: #FA00E1; font-family: Arial, sans-serif; font-size: 16px; line-height: 22px;">[Watch experts discuss the latest treatment approaches for advanced GIST]
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td style="padding-top: 10px;">
+                          <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                            <tr>
+                              <td style="font-family: Arial, sans-serif; font-size: 16px; line-height: 22px;"><strong>Preheader:</strong></td>
+                            </tr>
+                            <tr>
+                              <td style="padding-top: 4px; font-family: Arial, sans-serif; font-size: 16px; line-height: 22px;">
+                                Expert perspectives on GIST
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <!-- email info component -->
+
+
+                <!-- see web version component -->
+                <tr>
+                  <td style="font-family: Arial, sans-serif; font-size: 14px; line-height: 20px; color: #000000; text-align: center; padding: 8px 0; background-color: #ffffff;">
+                    If this email does not display correctly, <a id="web-version-link" href="#" style="font-family: Arial, sans-serif; font-size: 14px; line-height: 20px; color: #120DF9; text-decoration: underline;">click here</a>.
+                  </td>
+                </tr>
+                <!-- see web version component -->
+
+                 <!-- divider line component -->
+                 <tr>
+                  <td style="padding: 0; background-color: #ffffff;">
+                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                      <tr>
+                        <td height="1" style="font-size: 1px; line-height: 1px; background-color: #D9D9D9; font-family: Arial, sans-serif;">
+                          &nbsp;
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                 <!-- divider line component -->
+                 
+
+                <!-- header component -->
+                <tr>
+                  <td style="background-color: #ffffff;">
+                    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                      <tr>
+                        <td background="bg-white.png" bgcolor="#ffffff" width="600" valign="top" style="background-repeat: no-repeat;">
+                          <!--[if gte mso 9]>
+                          <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:600px;">
+                            <v:fill type="tile" src="bg-white.png" color="#ffffff" />
+                            <v:textbox style="mso-fit-shape-to-text:true" inset="0,0,0,0">
+                          <![endif]-->
+                          <div>
+
+                            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                              <tr>
+                                <td class="m-px-20" style="padding: 16px;">
+                                  
+                                  <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                    <tr>
+                                      <td align="center">
+                                        <img src="logo-cancer-therapy-advisor-2x.png" alt="Cancer Therapy Advisor logo" width="320" style="max-width: 100%; vertical-align: middle; line-height: 100%; border: 0; width: 320px;" class="m-header-logo">
+                                      </td>
+                                    </tr>
+                                  </table>
+
+                                </td>
+                              </tr>
+                            </table>
+                      
+                          </div>
+                          <!--[if gte mso 9]>
+                            </v:textbox>
+                          </v:rect>
+                          <![endif]-->
+                        </td>
+                      </tr>
+                    </table>
+
+                  </td>
+                </tr>
+                <!-- header component -->
+
+
+                <!-- background image and text overlay with mobile component -->
+                <tr>
+                  <td style="padding-bottom: 20px; background-color: #ffffff;" class="m-hide">
+                    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                      <tr>
+                        <td background="hero-background-desktop.png" bgcolor="#005A9A" width="600" valign="top" style="background-repeat: no-repeat;">
+                          <!--[if gte mso 9]>
+                          <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:600px;">
+                            <v:fill type="tile" src="hero-background-desktop.png" color="#005A9A" />
+                            <v:textbox style="mso-fit-shape-to-text:true" inset="0,0,0,0">
+                          <![endif]-->
+                          <div>
+
+                            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                              <tr>
+                                <td style="font-family: Arial, Helvetica, sans-serif;">
+                                  
+                                  <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                    <tr>
+                                      <td style="font-family: Arial, sans-serif; font-size: 28px; line-height: 38px; color: #213784; padding: 37px 21px 38px 21px; text-align: center; font-weight: 700;">
+                                        What is Your Approach to Managing Gastrointestinal Stromal Tumor (GIST)?
+                                      </td>
+                                    </tr>
+                                  </table>
+
+                                </td>
+                              </tr>
+                            </table>
+                      
+                          </div>
+                          <!--[if gte mso 9]>
+                            </v:textbox>
+                          </v:rect>
+                          <![endif]-->
+                        </td>
+                      </tr>
+                    </table>
+
+                  </td>
+                  <!--[if !mso]><!-->
+                  <td style="padding-bottom: 20px; background-color: #ffffff; display: none;" class="m-show">
+                    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                      <tr>
+                        <td background="hero-background-mobile.png" bgcolor="#005A9A" width="600" valign="top" style="background-repeat: no-repeat;">
+                          <!--[if gte mso 9]>
+                          <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:600px;">
+                            <v:fill type="tile" src="hero-background-mobile.png" color="#005A9A" />
+                            <v:textbox style="mso-fit-shape-to-text:true" inset="0,0,0,0">
+                          <![endif]-->
+                          <div>
+
+                            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                              <tr>
+                                <td style="font-family: Arial, Helvetica, sans-serif;">
+                                  
+                                  <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                    <tr>
+                                      <td style="font-family: Arial, sans-serif; font-size: 26px; line-height: 36px; color: #213784; padding: 35px 16px 36px 16px; text-align: center; font-weight: 700;">
+                                        What is Your Approach to Managing Gastrointestinal Stromal Tumor (GIST)?
+                                      </td>
+                                    </tr>
+                                    
+
+                                  </table>
+
+                                </td>
+                              </tr>
+                            </table>
+                      
+                          </div>
+                          <!--[if gte mso 9]>
+                            </v:textbox>
+                          </v:rect>
+                          <![endif]-->
+                        </td>
+                      </tr>
+                    </table>
+
+                  </td>
+                  <!--<![endif]-->
+                </tr>
+                <!-- background image and text overlay with mobile component -->
+
+
+                <!-- content component -->
+                <tr>
+                  <td style="padding: 0 20px; font-family: Arial, sans-serif; background-color: #ffffff;" class="m-px-16">
+                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                      <tr>
+                        <td style="font-family: Arial, sans-serif; font-size: 18px; line-height: 26px; color: #444446;">Join three renowned sarcoma experts as they review clinical guidelines, important considerations, and current approaches for managing advanced GIST patients.
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <!-- content component -->
+
+
+                <!-- 3-column image caption component -->
+                <tr>
+                  <td height="20" style="font-size: 20px; line-height: 20px; font-family: Arial, sans-serif; background-color: #ffffff;">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td style="padding-left: 20px; padding-right: 20px; background-color: #ffffff;" class="m-px-16">
+                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="margin: auto;">
+                      <tr>
+                        <th width="173" class="m-block" style="width: 173px;">
+                          <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                            <tr>
+                              <td align="center">
+                                <img src="mark-aguinik.png" alt="" width="100" style="max-width: 100%; vertical-align: middle; line-height: 100%; border: 0;">
+                              </td>
+                            </tr>
+                            <tr>
+                              <td style="font-family: Arial, sans-serif; font-size: 18px; line-height: 24px; color: #213784; font-weight: 700; padding-top: 24px;" align="center">
+                                Mark Agulnik, MD
+                              </td>
+                            </tr>
+                            <tr>
+                              <td style="font-family: Arial, sans-serif; font-size: 12px; line-height: 22px; color: #000000; padding-top: 6px;" align="center">
+                                Medical Oncologist <br>Keck Medicine of USC <br> &nbsp;
+                              </td>
+                            </tr>
+                          </table>
+                        </th>
+                        <th width="20" class="m-hide" style="width: 20px;"></th>
+                        <th class="m-block" style="height: 20px; display: none;"></th>
+                        <th width="173" class="m-block" style="width: 173px;">
+                          <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                            <tr>
+                              <td align="center">
+                                <img src="john-charlson.png" alt="" width="100" style="max-width: 100%; vertical-align: middle; line-height: 100%; border: 0;">
+                              </td>
+                            </tr>
+                            <tr>
+                              <td style="font-family: Arial, sans-serif; font-size: 18px; line-height: 24px; color: #213784; font-weight: 700; padding-top: 24px;" align="center">
+                                John Charlson, MD
+                              </td>
+                            </tr>
+                            <tr>
+                              <td style="font-family: Arial, sans-serif; font-size: 12px; line-height: 22px; color: #000000; padding-top: 6px;" align="center">
+                                Medical Oncologist <br>Medical College of<br> Wisconsin
+                              </td>
+                            </tr>
+                          </table>
+                        </th>
+                        <th width="20" class="m-hide" style="width: 20px;"></th>
+                        <th class="m-block" style="height: 20px; display: none;"></th>
+                        <th width="173" class="m-block" style="width: 173px;">
+                          <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                            <tr>
+                              <td align="center">
+                                <img src="clara-kelly.png" alt="" width="100" style="max-width: 100%; vertical-align: middle; line-height: 100%; border: 0;">
+                              </td>
+                            </tr>
+                            <tr>
+                              <td style="font-family: Arial, sans-serif; font-size: 18px; line-height: 24px; color: #213784; font-weight: 700; padding-top: 24px;" align="center">
+                                Ciara Kelly, MD 
+                              </td>
+                            </tr>
+                            <tr>
+                              <td style="font-family: Arial, sans-serif; font-size: 12px; line-height: 22px; color: #000000; padding-top: 6px;" align="center">
+                                Medical Oncologist <br>Memorial Sloan Kettering<br> Cancer Center
+                              </td>
+                            </tr>
+                          </table>
+                        </th>
+                        <th class="m-block" style="height: 20px; display: none;"></th>
+                  
+                        
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td height="20" style="font-size: 20px; line-height: 20px; font-family: Arial, sans-serif; background-color: #ffffff;">&nbsp;</td>
+                </tr>
+                <!-- 3-column image caption component -->
+
+
+                <!-- content component -->
+                <tr>
+                  <td style="padding: 20px 20px 0 20px; font-family: Arial, sans-serif; background-color: #ffffff;" class="m-px-16">
+                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                      <tr>
+                        <td style="font-family: Arial, sans-serif; font-size: 18px; line-height: 26px; color: #213784; font-weight: 700;">Check out these informative videos about the following topics:
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <!-- content component -->
+
+                <!-- table list component -->
+                <tr>
+                  <td style="padding-top: 4px; background-color: #ffffff;">
+
+                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                      <tr>
+                        <td style="width: 34px" class="m-td-width">&nbsp;</td>
+                        <td style="font-family: Arial, sans-serif; font-size: 16px; line-height: 22px; color: #213784; width: 6px;" valign="top">
+                          &bull;
+                        </td>
+                        <td style="width: 6px;">&nbsp;</td>
+                        <td style="font-family: Arial, sans-serif; font-size: 16px; line-height: 22px; color: #444446">
+                          GIST Overview
+                        </td>
+                      </tr>
+                    </table>		
+
+                  </td>
+                </tr>
+                <tr>
+                  <td style="padding-top: 4px; background-color: #ffffff;">
+
+                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                      <tr>
+                        <td style="width: 34px" class="m-td-width">&nbsp;</td>
+                        <td style="font-family: Arial, sans-serif; font-size: 16px; line-height: 22px; color: #213784; width: 6px;" valign="top">
+                          &bull;
+                        </td>
+                        <td style="width: 6px;">&nbsp;</td>
+                        <td style="font-family: Arial, sans-serif; font-size: 16px; line-height: 22px; color: #444446">
+                          Advanced Disease & Subsequent Management
+                        </td>
+                      </tr>
+                    </table>		
+
+                  </td>
+                </tr>
+                <tr>
+                  <td style="padding-top: 4px; padding-bottom: 20px; background-color: #ffffff;">
+
+                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                      <tr>
+                        <td style="width: 34px" class="m-td-width">&nbsp;</td>
+                        <td style="font-family: Arial, sans-serif; font-size: 16px; line-height: 22px; color: #213784; width: 6px;" valign="top">
+                          &bull;
+                        </td>
+                        <td style="width: 6px;">&nbsp;</td>
+                        <td style="font-family: Arial, sans-serif; font-size: 16px; line-height: 22px; color: #444446;">
+                          Important Considerations for Managing Advanced GIST
+                        </td>
+                      </tr>
+                    </table>		
+
+                  </td>
+                </tr>
+                <!-- table list component -->
+
+
+                <!-- button component -->
+                <tr>
+                  <td style="padding: 20px 0; font-family: Arial, sans-serif;  background-color: #ffffff;">
+                    <div style="text-align:center">
+                        <!--[if mso]>
+                          <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.cancertherapyadvisor.com/custom/expert-perspectives/qinlock/#/" style="height:40px;v-text-anchor:middle;width:156px;" arcsize="0%" fillcolor="#FDB84D">
+                            <w:anchorlock/>
+                            <center style="color:#213784; font-family: Arial, sans-serif; font-size:16px;font-weight:bold;">Watch Videos</center>
+                          </v:roundrect>
+                        <![endif]-->
+                
+                        <!--[if !mso]><!-->
+                          <span style="display:inline-block; width:100%; max-width:156px; background-color:#FDB84D; color: #fff; border-radius:0px; text-align:center; -webkit-text-size-adjust:none;">
+                            <a href="https://www.cancertherapyadvisor.com/custom/expert-perspectives/qinlock/#/" target="_blank" style="display: inline-block; width: 100%; max-width: 156px; line-height: 40px; text-decoration: none; color: #213784; font-family: Arial, sans-serif; font-size: 16px; font-weight: bold">
+                              Watch Videos
+                            </a>
+                          </span>
+                        <!--<![endif]-->
+                      </div>
+                  </td>
+                </tr>
+                <!-- button component -->
+
+                <!-- content component -->
+                <tr>
+                  <td style="padding: 20px 20px 8px 20px; font-family: Arial, sans-serif; background-color: #ffffff;" class="m-px-16">
+                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                      <tr>
+                        <td style="font-family: Arial, sans-serif; font-size: 12px; line-height: 16px; color: #444446;">Program sponsored by Deciphera Pharmaceuticals
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td style="padding: 0 20px 20px 20px; font-family: Arial, sans-serif; background-color: #ffffff;" class="m-px-16">
+                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                      <tr>
+                        <td style="font-family: Arial, sans-serif; font-size: 12px; line-height: 16px; color: #444446;">DCPH-P02265 05/25
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <!-- content component -->
+
+
+                <!-- footer component -->
+                <!-- AIG -->
+                <tr>
+                  <td class="m-px-30" style="padding: 20px 0;">
+                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                      <tr>
+                        <td style="font-family: Arial, sans-serif; font-size: 12px; line-height: 14px; color: #000000; text-align: center;">
+                         <span class="m-block">Subscribed as:</span> <a id="recipient-email" href="#" style="font-family: Arial, sans-serif; font-size: 12px; line-height: 14px; color: #FA00E1; text-decoration: underline; font-weight: 700;">[Recipient’s email]</a> | <a href="https://www.haymarketmediaus.com/haymarket-media-inc-privacy-policy/" style="font-family: Arial, sans-serif; font-size: 12px; line-height: 14px; color: #000000; text-decoration: underline;">Privacy Policy</a> | <a href="https://www.haymarketmediaus.com/haymarket-media-inc-terms-and-conditions-of-service/" style="font-family: Arial, sans-serif; font-size: 12px; line-height: 14px; color: #000000; text-decoration: underline;">Terms & Conditions</a>
+                        </td>
+                      </tr>  
+                      <tr>
+                        <td style="padding-top: 20px;font-family: Arial, sans-serif; font-size: 12px; line-height: 14px; color: #000000; text-align: center;">
+                          You have received this email communication based upon your profession and specialty.<br>
+                          <a id="update-profile-link" href="#" style="font-family: Arial, sans-serif; font-size: 12px; line-height: 14px; color: #000000; text-decoration: underline;">Click here</a> to update/complete your profile, or unsubscribe from these promotional mailings <a id="unsubscribe-link" href="#" style="font-family: Arial, sans-serif; font-size: 12px; line-height: 14px; color: #000000; text-decoration: underline;">here</a>.
+                        </td>
+                      </tr>  
+                      <tr>
+                        <td style="padding-top: 20px;font-family: Arial, sans-serif; font-size: 12px; line-height: 14px; color: #000000; text-align: center;">
+                          &copy; <span id="current-year">2025</span> Haymarket Media, Inc. | <span>275&nbsp;7th&nbsp;</span><span>Ave,</span><span>&nbsp;10th&nbsp;</span><span>Floor,</span> <span>New&nbsp;York,&nbsp;</span><span>NY&nbsp;10001</span>
+                        </td>
+                      </tr>  
+                    </table>
+                  </td>
+                </tr>
+                <!-- AIG -->
+                <!-- footer component -->
+
+							</table>
+
+
+							<!-- Build Components End   -->
+						</td>
+					</tr>
+				</table>
+				<!--[if mso]>
+				</td>
+				</tr>
+				</table>
+				<![endif]-->
+			</div>
+
+		<!--[if mso | IE]>
+		</td>
+		</tr>
+		</table>
+		<![endif]-->
+	</center>
+</body>
+</html>
