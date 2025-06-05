@@ -3,6 +3,7 @@ node_modules
 dist
 uat
 /dist
+/temp
 yarn.lock
 package-lock.json
 bu-*
@@ -26,14 +27,6 @@ yarn-error.log*
 *.sln
 *.sw*
 
-# banners
-/banners/node_modules
-/banners/package-lock.json
-/banners/.vs
-/banners/zipped  
-/banners/tools/screenshots/output/banner/**/*.png
-/banners/yarn.lock
-/banners/dist
 
 # emails  
 /emails/node_modules
