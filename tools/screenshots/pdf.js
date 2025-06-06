@@ -99,7 +99,7 @@ devices.forEach(function(device) {
 }, { bannertypeArray: bannertypeArray[j]} );
 doc.pipe(
   fs.createWriteStream(
-    "./tools/screenshots/output/lilly-lebrikizumab-expert-perspectives-w24-525-"+bannertypeArray[j]+"-email.pdf"
+    "./tools/screenshots/output/deciphera-qinlock-expert-perspectives-w24-584-"+bannertypeArray[j]+"-email.pdf"
   )
 );
 
